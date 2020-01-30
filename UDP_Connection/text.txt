@@ -48,13 +48,13 @@ Time Zone:                 (UTC-06:00) Central Time (US & Canada)
 
 Total Physical Memory:     32,663 MB
 
-Available Physical Memory: 27,362 MB
+Available Physical Memory: 27,247 MB
 
 Virtual Memory: Max Size:  37,527 MB
 
-Virtual Memory: Available: 32,282 MB
+Virtual Memory: Available: 32,140 MB
 
-Virtual Memory: In Use:    5,245 MB
+Virtual Memory: In Use:    5,387 MB
 
 Page File Location(s):     C:\pagefile.sys
 

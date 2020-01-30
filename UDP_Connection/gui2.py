@@ -91,12 +91,8 @@ class GUI:
         file.close()
 
     def display_text(self):
-<<<<<<< HEAD
         self.clear_text()
-        time.sleep(0.5)
-=======
         time.sleep(7)
->>>>>>> 4fb923027d29f27e28da1c4b1d0e1adc504957cc
         file = open('text.txt')
         file_read = file.read()
         self.__text1.insert(tk.END, file_read)

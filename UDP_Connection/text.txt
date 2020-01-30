@@ -1,2 +1,134 @@
-Connection Established
+
+
+Host Name:                 DESKTOP-5HT5KSN
+
+OS Name:                   Microsoft Windows 10 Pro
+
+OS Version:                10.0.18362 N/A Build 18362
+
+OS Manufacturer:           Microsoft Corporation
+
+OS Configuration:          Standalone Workstation
+
+OS Build Type:             Multiprocessor Free
+
+Registered Owner:          student
+
+Registered Organization:   
+
+Product ID:                00330-50039-56225-AAOEM
+
+Original Install Date:     10/11/2019, 7:05:01 PM
+
+System Boot Time:          1/30/2020, 1:53:25 PM
+
+System Manufacturer:       Dell Inc.
+
+System Model:              Precision 7710
+
+System Type:               x64-based PC
+
+Processor(s):              1 Processor(s) Installed.
+
+                           [01]: Intel64 Family 6 Model 94 Stepping 3 GenuineIntel ~2701 Mhz
+
+BIOS Version:              Dell Inc. 1.17.7, 5/20/2019
+
+Windows Directory:         C:\Windows
+
+System Directory:          C:\Windows\system32
+
+Boot Device:               \Device\HarddiskVolume3
+
+System Locale:             en-us;English (United States)
+
+Input Locale:              en-us;English (United States)
+
+Time Zone:                 (UTC-06:00) Central Time (US & Canada)
+
+Total Physical Memory:     32,663 MB
+
+Available Physical Memory: 27,362 MB
+
+Virtual Memory: Max Size:  37,527 MB
+
+Virtual Memory: Available: 32,282 MB
+
+Virtual Memory: In Use:    5,245 MB
+
+Page File Location(s):     C:\pagefile.sys
+
+Domain:                    WORKGROUP
+
+Logon Server:              \\DESKTOP-5HT5KSN
+
+Hotfix(s):                 9 Hotfix(s) Installed.
+
+                           [01]: KB4532938
+
+                           [02]: KB4503308
+
+                           [03]: KB4506472
+
+                           [04]: KB4509096
+
+                           [05]: KB4516115
+
+                           [06]: KB4521863
+
+                           [07]: KB4524569
+
+                           [08]: KB4528759
+
+                           [09]: KB4528760
+
+Network Card(s):           4 NIC(s) Installed.
+
+                           [01]: Intel(R) Ethernet Connection (2) I219-LM
+
+                                 Connection Name: Ethernet
+
+                                 Status:          Media disconnected
+
+                           [02]: Intel(R) Dual Band Wireless-AC 8260
+
+                                 Connection Name: Wi-Fi
+
+                                 Status:          Media disconnected
+
+                           [03]: 802.11ac Wireless LAN Card
+
+                                 Connection Name: Wi-Fi 2
+
+                                 DHCP Enabled:    Yes
+
+                                 DHCP Server:     10.240.234.31
+
+                                 IP address(es)
+
+                                 [01]: 10.240.234.185
+
+                                 [02]: fe80::8150:1fbb:51d4:f629
+
+                           [04]: VirtualBox Host-Only Ethernet Adapter
+
+                                 Connection Name: VirtualBox Host-Only Network
+
+                                 DHCP Enabled:    No
+
+                                 IP address(es)
+
+                                 [01]: 192.168.56.1
+
+                                 [02]: fe80::4fd:7de5:e486:788f
+
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+
+                           Virtualization Enabled In Firmware: Yes
+
+                           Second Level Address Translation: Yes
+
+                           Data Execution Prevention Available: Yes
+
+
 

@@ -7,10 +7,10 @@ int fileExists(TCHAR * file);
 
 int main()
 {
-    if (fileExists("C:\\users\\ieuser\\Desktop\\teamprojrat-master\\initialize.ps1"))
+    /*if (fileExists("C:\\users\\ieuser\\Desktop\\teamprojrat-master\\initialize.ps1"))
     {
         system("start initialize.ps1");
-    }
+    }*/
     if (!fileExists("C:\\users\\ieuser\\appdata\\local\\programs\\python\\python38-32\\Lib\\site-packages\\openpyxl"))
     {
         system("start /WAIT pip install openpyxl\n");

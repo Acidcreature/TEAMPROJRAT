@@ -83,16 +83,20 @@ class GUI:
         self.display_text()
 
     def export(self):
-        name = f'{datetime.date.today()}.txt'
+        name = f'{datetime.datetime.now().strftime("%Y-%m-%d %H_%M_%S")}.txt'
         file = open(name,'w')
         text = open('text.txt')
         file.write(text.read())
         file.close()
 
     def display_text(self):
+        self.clear_text()
         time.sleep(0.5)
         file = open('text.txt')
         file_read = file.read()
         self.__text1.insert(tk.END, file_read)
+
+    def clear_text(self):
+        self.__text1.delete(1.0,tk.END)
 
 

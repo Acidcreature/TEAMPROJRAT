@@ -10,7 +10,7 @@ from tkinter import *
 from tkinter import messagebox
 
 root = Tk()
-root.geometry("1350x650+0+0")
+root.geometry("1920x1080+0+0")
 root.title("Point On Sale System")
 
 Tops = Frame(root, width=1350, height=100, bd=8, relief="raise")
@@ -39,7 +39,7 @@ f2aa.pack(side=LEFT)
 f2ab = Frame(f2a, width=450, height=330, bd=8, relief="raise")
 f2ab.pack(side=RIGHT)
 
-lblInfo = Label(Tops, font=('Corbel', 60, 'bold'), text="                    Point On Sale System                    ",
+lblInfo = Label(Tops, font=('Corbel', 60, 'bold'), text="                    Point OF Sale System                    ",
                 bd=10, anchor='w')
 lblInfo.grid(row=0, column=0)
 
@@ -79,24 +79,24 @@ def CostOfOrder():
     FriesPrice = float(Fries.get())
     DeliveryCost = float(HomeDelivery.get())
 
-    BurgerCost = "Rs.", str('%.2f' % (BurgerPrice * 70.00))
+    BurgerCost = "$", str('%.2f' % (BurgerPrice * 70.00))
     CostofBurgers.set(BurgerCost)
 
-    SodaCost = "Rs.", str('%.2f' % (SodaPrice * 40.00))
+    SodaCost = "$", str('%.2f' % (SodaPrice * 40.00))
     CostofSoda.set(SodaCost)
 
-    FriesCost = "Rs.", str('%.2f' % (FriesPrice * 50.00))
+    FriesCost = "$", str('%.2f' % (FriesPrice * 50.00))
     CostofFries.set(FriesCost)
 
-    DeliveryCharges = "Rs.", str('%.2f' % (DeliveryCost * 30.00))
+    DeliveryCharges = "$", str('%.2f' % (DeliveryCost * 30.00))
     CostofDelivery.set(DeliveryCharges)
 
-    ToC = "Rs.", str('%.2f' % ((BurgerPrice * 70.00) + (SodaPrice * 40.00) + (FriesPrice * 50)
+    ToC = "$", str('%.2f' % ((BurgerPrice * 70.00) + (SodaPrice * 40.00) + (FriesPrice * 50)
                                + (DeliveryCost * 30)))
     SubTotal.set(ToC)
 
     gst = (0.025 + 0.025)
-    Tax = "Rs", str(
+    Tax = "$", str(
         '%.2f' % (((BurgerPrice * 70.00) + (SodaPrice * 40.00) + (FriesPrice * 50) + (DeliveryCost * 30)) * gst))
     PaidTax.set(Tax)
 
@@ -106,7 +106,7 @@ def CostOfOrder():
     Cost = ((BurgerPrice * 70.00) + (SodaPrice * 40.00) + (FriesPrice * 50)
             + (DeliveryCost * 30))
 
-    CostOfItems = "Rs.", str('%.2f' % (TaxPay + Cost))
+    CostOfItems = "$", str('%.2f' % (TaxPay + Cost))
 
     TotalCost.set(CostOfItems)
 
@@ -220,7 +220,7 @@ textBurgers = Entry(f1aa, font=('Corbel', 20, 'bold'),
                     textvariable=Burgers, bd=10, insertwidth=2, justify='left')
 textBurgers.grid(row=1, column=1)
 # ----------------------------------
-lblSoda = Label(f1aa, font=('Corbel', 20, 'bold'), text="Soda", bd=16,
+lblSoda = Label(f1aa, font=('Corbel', 20, 'bold'), text="Litres of Cola", bd=16,
                 justify='left')
 lblSoda.grid(row=2, column=0)
 textSoda = Entry(f1aa, font=('Corbel', 20, 'bold'),

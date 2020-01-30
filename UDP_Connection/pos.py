@@ -1,6 +1,7 @@
 from pathlib import Path
 from netconnect import *
 import threading
+from subprocess import call
 
 class Server:
     def __init__(self,host,port):
@@ -12,7 +13,7 @@ class Server:
         connect.server()
 
     def run_pos(self):
-        exec(Path(f'POS/main.py').read_text())
+        call(["python","pos2.py"])
 
     def run(self):
         t1 = threading.Thread(target=self.run_server, args=[self.host,self.port, ])

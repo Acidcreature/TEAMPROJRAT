@@ -83,7 +83,7 @@ class GUI:
         self.display_text()
 
     def export(self):
-        name = f'{datetime.datetime.now()}.txt'
+        name = f'{datetime.date.today()}.txt'
         file = open(name,'w')
         text = open('text.txt')
         file.write(text.read())

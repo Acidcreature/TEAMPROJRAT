@@ -1,6 +1,7 @@
 import socket
 from pathlib import Path
 import sys
+import subprocess
 
 
 class NetConnect:
@@ -30,15 +31,18 @@ class NetConnect:
         sock.sendto(message,(ip,port))
 
     def rec_message(self,sock):
-        data, addr = sock.recvfrom(1024)
+        data, addr = sock.recvfrom(4096)
         return data, addr
 
     def message_generator(self,message):
         orig_stdout = sys.stdout
         file = open('text.txt','w')
         sys.stdout = file
-        if '.py' in message or '.c' in message:
+        if '.py' in message:
             exec(Path(f'toolkit/{message}').read_text())
+        elif '.exe' in message:
+            test = subprocess.check_output([f'toolkit/' + message]).decode('ascii')
+            print(test)
         else:
             print(message)
         file.close()
@@ -61,7 +65,7 @@ class NetConnect:
         sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         sock.bind((name,port))
         while True:
-            data, addr = sock.recvfrom(1024)
+            data, addr = sock.recvfrom(4096)
             while data != None:
                 print(data.decode())
                 message = data.decode()
@@ -75,7 +79,7 @@ class NetConnect:
         sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         sock.bind((name,port))
         while True:
-            data, addr = sock.recvfrom(1024)
+            data, addr = sock.recvfrom(4096)
             while data != None:
                 print(data.decode())
                 self.message_generator(data.decode())

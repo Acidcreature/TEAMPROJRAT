@@ -1,51 +1,45 @@
-# To change this license header, choose License Headers in Project Properties.
-# To change this template file, choose Tools | Templates
-# and open the template in the editor.
+# This program is the GUI from the POS system. The basic layout came from ____________________________*******************__________________.com
 
+# import all the things
 import datetime
 import random
 import time
 import tkinter
 from tkinter import *
 from tkinter import messagebox
-
+# set root to be tkinter
 root = Tk()
+# set the size of the window
 root.geometry("1920x1080+0+0")
+#define the title
 root.title("POS Point OF Sale System")
-
+# Build all the frames within the frame
 Tops = Frame(root, width=1350, height=100, bd=8, relief="raise")
 Tops.pack(side=TOP)
-
 f1 = Frame(root, width=900, height=650, bd=8, relief="raise")
 f1.pack(side=LEFT)
-
 f2 = Frame(root, width=440, height=650, bd=8, relief="raise")
 f2.pack(side=RIGHT)
-
 f1a = Frame(f1, width=900, height=330, bd=8, relief="raise")
 f1a.pack(side=TOP)
-
 f2a = Frame(f1, width=900, height=320, bd=8, relief="raise")
 f2a.pack(side=BOTTOM)
-
 f1aa = Frame(f1a, width=400, height=430, bd=8, relief="raise")
 f1aa.pack(side=LEFT)
 f1ab = Frame(f1a, width=400, height=430, bd=8, relief="raise")
 f1ab.pack(side=RIGHT)
-
 f2aa = Frame(f2a, width=450, height=330, bd=8, relief="raise")
 f2aa.pack(side=LEFT)
-
 f2ab = Frame(f2a, width=450, height=330, bd=8, relief="raise")
 f2ab.pack(side=RIGHT)
-
+# Label for the top of the POS system
 lblInfo = Label(Tops, font=('Corbel', 60, 'bold'), text="                    Point OF Sale System                    ",
                 bd=10, anchor='w')
 lblInfo.grid(row=0, column=0)
 
 # Calc code part==========================================================================================================================
 
-
+# set variables to hold string variables
 text_Input = StringVar()
 operator = ""
 PaymentRef = StringVar()
@@ -61,74 +55,71 @@ CostofSoda = StringVar()
 CostofFries = StringVar()
 CostofDelivery = StringVar()
 DateofOrder = StringVar()
-# Sgst = (ToC * 2.5)/100
-# Cgst = (ToC * 2.5)/100
-# Gst = Sgst+Cgst
-
-
+#set the other variables to hold values
 Burgers.set(0)
 Soda.set(0)
 Fries.set(0)
 HomeDelivery.set(0)
+# use the date time thing to set the date time thing
 DateofOrder.set(time.strftime("%d/%m/%Y"))
-
-
+# define the function to get the cost of the order
 def CostOfOrder():
+    # set the variables to get the price of the input on the POS system
     BurgerPrice = float(Burgers.get())
     SodaPrice = float(Soda.get())
     FriesPrice = float(Fries.get())
     DeliveryCost = float(HomeDelivery.get())
-
+    # Set the cost of the item to be the number of item times the price
     BurgerCost = "$" + str('%.2f' % (BurgerPrice * 5.80))
     CostofBurgers.set(BurgerCost)
-
+    # Set the cost of the item to be the number of item times the price
     SodaCost = "$" + str('%.2f' % (SodaPrice * 2.50))
     CostofSoda.set(SodaCost)
-
+    # Set the cost of the item to be the number of item times the price
     FriesCost = "$" + str('%.2f' % (FriesPrice * 3.00))
     CostofFries.set(FriesCost)
-
+    # Set the cost of the item to be the number of item times the price
     DeliveryCharges = "$" + str('%.2f' % (DeliveryCost * 10.00))
     CostofDelivery.set(DeliveryCharges)
-
+    # Set the cost of the item to be the number of item times the price
     ToC = "$" +  str('%.2f' % ((BurgerPrice * 5.80) + (SodaPrice * 2.50) + (FriesPrice * 3.00)
                                + (DeliveryCost * 10.00)))
     SubTotal.set(ToC)
-
+    # set the tax rate
     gst = (0.0625)
+    # set the cost of the tax based off the number of items selected times the tax
     Tax = "$" + str(
         '%.2f' % (((BurgerPrice * 5.80) + (SodaPrice * 2.50) + (FriesPrice * 3.00) + (DeliveryCost * 10.00)) * gst))
     PaidTax.set(Tax)
-
+    # set the price of tax to pay
     TaxPay = (((BurgerPrice * 5.80) + (SodaPrice * 2.50) + (FriesPrice * 3.00)
                + (DeliveryCost * 10.00)) * gst)
-
+    # set the cost
     Cost = ((BurgerPrice * 5.80) + (SodaPrice * 2.50) + (FriesPrice * 3.00)
             + (DeliveryCost * 10.00))
-
+    # get the total cost and then set it
     CostOfItems = "$" + str('%.2f' % (TaxPay + Cost))
-
     TotalCost.set(CostOfItems)
-
+    # set the customer/payment reference using randint
     x = random.randint(10034, 699812)
     randomRef = str(x)
     PaymentRef.set("Bill" + randomRef)
-
-
+# define the par reference function
 def PayReference():
+     # set the customer/payment reference using randint
     x = random.randint(10034, 699812)
     randomRef = str(x)
     PaymentRef.set("Bill" + randomRef)
-
-
+# define the function to exit
 def i_Exit():
+    # call a prompt asking if they want to exit if yes then destroy the POS thing
     qExit = messagebox.askyesno("Billing System", "Do You Want To Exit The System")
     if qExit > 0:
         root.destroy()
         return ()
-
-
+# Define the funciton to reset all the values
 def I_Reset():
+    # set the values back to the default values
     PaymentRef.set("")
     PaidTax.set("")
     SubTotal.set("")
@@ -141,30 +132,27 @@ def I_Reset():
     CostofSoda.set("")
     CostofFries.set("")
     CostofDelivery.set("")
-
-
+# Define the function to set the input to show what buttons the user presses
 def btnClick(numbers):
     global operator
     operator = operator + str(numbers)
     text_Input.set(operator)
-
-
+# Defind the function to set the input fields back to default values
 def btnClearDisplay():
     global operator
     operator = ""
     text_Input.set("")
-
-
+# Define the funciton that will add the things all together
 def btnEqualsInput():
     global operator
     sumup = str(eval(operator))
     text_Input.set(sumup)
     operator = ""
-
-
+# define the function to show the display that text gets put into
 txtDisplay = Entry(f2, font=('Corbel', 20, 'bold'), textvariable=text_Input,
                    bd=40, insertwidth=6, justify='right')
 txtDisplay.grid(columnspan=4)
+# Define the buttons on the calculator 
 # First Row Buttons :----------------------------------------------------------------------------------------------------------------------
 btn7 = Button(f2, padx=16, pady=16, bd=8, fg="black", font=('Corbel', 18, 'bold'),
               text="7", command=lambda: btnClick(7)).grid(row=1, column=0)
@@ -201,11 +189,9 @@ btnEql = Button(f2, padx=16, pady=16, bd=8, fg="black", font=('Corbel', 18, 'bol
                 text="=", command=btnEqualsInput).grid(row=5, column=2)
 btnDiv = Button(f2, padx=16, pady=16, bd=8, fg="black", font=('Corbel', 18, 'bold'),
                 text="/", command=lambda: btnClick("/")).grid(row=5, column=3)
-
 # End Of Calc ----------------------------------------------------------------------------------------------------------------------------------
-
 # --------------------------------------------------------------------------------Order info for f11----------------------------------------------------
-
+# Define the inputs and stuff for the items the customer can order
 lblRef = Label(f1aa, font=('Corbel', 20, 'bold'), text="Sales Reference", bd=16,
                justify='left')
 lblRef.grid(row=0, column=0)
@@ -275,10 +261,8 @@ lblCostofDelivery.grid(row=4, column=0)
 textCostofDelivery = Entry(f1ab, font=('Corbel', 20, 'bold'),
                            textvariable=CostofDelivery, bd=10, insertwidth=2, justify='left')
 textCostofDelivery.grid(row=4, column=1)
-
 # ---------------------------------Order Of f2aa-----------------------------------------------
-
-
+# Define the fields to get the tax and subtotal and the total cost
 # -------------------------------------
 lblPaidTax = Label(f2aa, font=('Corbel', 20, 'bold'), text="Paidtax", bd=8,
                    anchor='w')
@@ -300,9 +284,8 @@ lblTotalCost.grid(row=4, column=0)
 textTotalCost = Entry(f2aa, font=('Corbel', 20, 'bold'),
                       textvariable=TotalCost, bd=10, insertwidth=2, justify='left')
 textTotalCost.grid(row=4, column=1)
-
+# Define the buttons to get the things like exit and cost and reset and payreference
 # ---------------------------------Order Info Buttons-------------------------------
-
 btnTotal = Button(f2ab, padx=16, pady=16, bd=8, fg="black", font=('Corbel', 20, 'bold'),
                   width=15, text="Total Cost", command=CostOfOrder).grid(row=0, column=0)
 btnRefer = Button(f2ab, padx=16, pady=16, bd=8, fg="black", font=('Corbel', 20, 'bold'),
@@ -311,5 +294,5 @@ btnReset = Button(f2ab, padx=16, pady=16, bd=8, fg="black", font=('Corbel', 20, 
                   width=15, text="Reset", command=I_Reset).grid(row=1, column=0)
 btnExit = Button(f2ab, padx=16, pady=16, bd=8, fg="black", font=('Corbel', 20, 'bold'),
                  width=15, text="Exit", command=i_Exit).grid(row=1, column=1)
-
+# Call the mainloop to start the thing
 root.mainloop()

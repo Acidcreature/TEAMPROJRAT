@@ -92,7 +92,10 @@ class GUI:
 
     def display_text(self):
         self.clear_text()
-        time.sleep(7)
+        if self.__cb1.get() == 'sysInfo.exe':
+            time.sleep(7)
+        else:
+            time.sleep(0.5)
         file = open('text.txt')
         file_read = file.read()
         self.__text1.insert(tk.END, file_read)

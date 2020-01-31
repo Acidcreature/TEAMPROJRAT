@@ -30,6 +30,7 @@ class GUI:
 
         '''Text Field'''
         self.__text1 = tk.Text(master=self.__master,height=10,width=90,bd=5)
+        self.__text1.insert('1.0', 'PLEASE WAIT 7 SECOND BETWEEN RESULTS\n\n')
 
         '''Combo Box'''
         self.__cb1 = ttk.Combobox(self.__master,values=self.combo_box_function())
@@ -83,16 +84,20 @@ class GUI:
         self.display_text()
 
     def export(self):
-        name = f'{datetime.datetime.now()}.txt'
+        name = f'{datetime.datetime.now().strftime("%Y-%m-%d %H_%M_%S")}.txt'
         file = open(name,'w')
-        text = open('../text.txt')
+        text = open('text.txt')
         file.write(text.read())
         file.close()
 
     def display_text(self):
-        time.sleep(0.5)
-        file = open('../text.txt')
+        self.clear_text()
+        time.sleep(7)
+        file = open('text.txt')
         file_read = file.read()
         self.__text1.insert(tk.END, file_read)
+
+    def clear_text(self):
+        self.__text1.delete(1.0,tk.END)
 
 

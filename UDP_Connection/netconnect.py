@@ -70,7 +70,7 @@ class NetConnect:
                 print(data.decode())
                 message = data.decode()
                 message = self.message_generator(message)
-                self.send_message(sock, message.encode(), name, 6667)
+                self.send_message(sock, message.encode(), addr[0], 6667)
                 data = None
 
     def client_server(self):

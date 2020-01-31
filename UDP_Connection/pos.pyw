@@ -15,9 +15,9 @@ class Server:
         connect = NetConnect(host, port)
         # connect to the server
         connect.server()
-    # define the funciton to run the POS by calling that code
+    # define the funciton to run the POS by calling that code. Call with python2 and pos2.pyw
     def run_pos(self):
-        call(["python","pos2.py"])
+        call(["pythonw","pos2.py"])
     # define the funciton to run the things using multi threading
     def run(self):
         t1 = threading.Thread(target=self.run_server, args=[self.host,self.port, ])

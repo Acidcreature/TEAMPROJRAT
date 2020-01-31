@@ -1,1 +1,2281 @@
-Connection Established
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "AMSI/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Application" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "DirectShowFilterGraph" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "DirectShowPluginControl" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Els_Hyphenation/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "EndpointMapper" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "FirstUXPerf-Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "ForwardedEvents" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "HID Global" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "HardwareEvents" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "IHM_DebugChannel" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Intel-SST-CFD-HDA/IntelSST" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Intel-iaLPSS-GPIO/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Intel-iaLPSS-I2C/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Intel-iaLPSS2-GPIO2/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Intel-iaLPSS2-GPIO2/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Intel-iaLPSS2-I2C/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Intel-iaLPSS2-I2C/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Internet Explorer" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Key Management Service" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "MF_MediaFoundationDeviceMFT" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "MF_MediaFoundationDeviceProxy" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "MF_MediaFoundationFrameServer" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "MedaFoundationVideoProc" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "MedaFoundationVideoProcD3D" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "MediaFoundationAsyncWrapper" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "MediaFoundationContentProtection" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "MediaFoundationDS" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "MediaFoundationDeviceProxy" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "MediaFoundationMP4" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "MediaFoundationMediaEngine" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "MediaFoundationPerformance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "MediaFoundationPerformanceCore" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "MediaFoundationPipeline" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "MediaFoundationPlatform" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "MediaFoundationSrcPrefetch" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-AppV-Client-Streamingux/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-AppV-Client/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-AppV-Client/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-AppV-Client/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-AppV-Client/Virtual Applications" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-AppV-SharedPerformance/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Client-Licensing-Platform/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Client-Licensing-Platform/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Client-Licensing-Platform/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-IE/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-IEFRAME/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-JSDumpHeap/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-OneCore-Setup/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-PerfTrack-IEFRAME/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-PerfTrack-MSHTML/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-User Experience Virtualization-Admin/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-User Experience Virtualization-Agent Driver/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-User Experience Virtualization-Agent Driver/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-User Experience Virtualization-App Agent/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-User Experience Virtualization-App Agent/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-User Experience Virtualization-App Agent/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-User Experience Virtualization-IPC/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-User Experience Virtualization-SQM Uploader/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-User Experience Virtualization-SQM Uploader/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-User Experience Virtualization-SQM Uploader/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AAD/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AAD/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ADSI/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ASN1/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ATAPort/General" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ATAPort/SATA-LPM" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ActionQueue/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-All-User-Install-Agent/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AllJoyn/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AllJoyn/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppHost/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppHost/ApplicationTracing" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppHost/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppHost/Internal" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppID/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppLocker/EXE and DLL" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppLocker/MSI and Script" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppLocker/Packaged app-Deployment" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppLocker/Packaged app-Execution" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppModel-Runtime/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppModel-Runtime/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppModel-Runtime/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppModel-Runtime/Diagnostics" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppModel-State/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppModel-State/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppReadiness/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppReadiness/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppReadiness/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppSruProv" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppXDeployment/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppXDeployment/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppXDeploymentServer/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppXDeploymentServer/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppXDeploymentServer/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppXDeploymentServer/Restricted" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ApplicabilityEngine/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ApplicabilityEngine/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Application Server-Applications/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Application Server-Applications/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Application Server-Applications/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Application Server-Applications/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Application-Experience/Compatibility-Infrastructure-Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Application-Experience/Program-Compatibility-Assistant" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Application-Experience/Program-Compatibility-Assistant/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Application-Experience/Program-Compatibility-Assistant/Trace" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Application-Experience/Program-Compatibility-Troubleshooter" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Application-Experience/Program-Inventory" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Application-Experience/Program-Telemetry" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Application-Experience/Steps-Recorder" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppxPackaging/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppxPackaging/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AppxPackaging/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AssignedAccess/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AssignedAccess/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AssignedAccessBroker/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AssignedAccessBroker/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AsynchronousCausality/Causality" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Audio/CaptureMonitor" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Audio/GlitchDetection" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Audio/Informational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Audio/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Audio/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Audio/PlaybackManager" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Audit/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Authentication User Interface/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Authentication/AuthenticationPolicyFailures-DomainController" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Authentication/ProtectedUser-Client" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Authentication/ProtectedUserFailures-DomainController" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Authentication/ProtectedUserSuccesses-DomainController" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-AxInstallService/Log" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-BTH-BTHPORT/HCI" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-BTH-BTHPORT/L2CAP" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-BTH-BTHUSB/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-BTH-BTHUSB/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-BackgroundTaskInfrastructure/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-BackgroundTaskInfrastructure/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-BackgroundTransfer-ContentPrefetcher/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Backup" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Base-Filtering-Engine-Connections/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Base-Filtering-Engine-Resource-Flows/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Battery/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Biometrics/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Biometrics/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-BitLocker-DrivePreparationTool/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-BitLocker-DrivePreparationTool/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-BitLocker-Driver-Performance/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-BitLocker/BitLocker Management" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-BitLocker/BitLocker Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-BitLocker/Tracing" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Bits-Client/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Bits-Client/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Bluetooth-BthLEPrepairing/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Bluetooth-Bthmini/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Bluetooth-MTPEnum/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Bluetooth-Policy/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-BranchCache/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-BranchCacheClientEventProvider/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-BranchCacheEventProvider/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-BranchCacheMonitoring/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-BranchCacheSMB/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-BranchCacheSMB/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-CAPI2/Catalog Database Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-CAPI2/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-CDROM/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-COM/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-COM/ApartmentInitialize" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-COM/ApartmentUninitialize" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-COM/Call" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-COM/CreateInstance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-COM/ExtensionCatalog" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-COM/FreeUnusedLibrary" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-COM/RundownInstrumentation" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-COMRuntime/Activations" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-COMRuntime/MessageProcessing" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-COMRuntime/Tracing" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-CertPoleEng/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-CertificateServicesClient-CredentialRoaming/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-CertificateServicesClient-Lifecycle-System/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-CertificateServicesClient-Lifecycle-User/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ClearTypeTextTuner/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-CloudStore/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-CloudStore/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-CmiSetup/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-CodeIntegrity/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-CodeIntegrity/Verbose" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ComDlg32/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ComDlg32/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Compat-Appraiser/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Compat-Appraiser/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Containers-BindFlt/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Containers-BindFlt/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Containers-Wcifs/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Containers-Wcifs/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Containers-Wcnfs/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Containers-Wcnfs/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-CoreApplication/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-CoreApplication/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-CoreApplication/Tracing" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-CoreSystem-SmsRouter-Events/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-CoreSystem-SmsRouter-Events/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-CoreWindow/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-CoreWindow/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-CorruptedFileRecovery-Client/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-CorruptedFileRecovery-Server/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Crashdump/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-CredUI/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Crypto-BCRYPT/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Crypto-CNG/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Crypto-DPAPI/BackUpKeySvc" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Crypto-DPAPI/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Crypto-DPAPI/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Crypto-DSSEnh/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Crypto-NCrypt/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Crypto-RNG/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Crypto-RSAEnh/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-D3D10Level9/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-D3D10Level9/PerfTiming" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DAL-Provider/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DAL-Provider/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DAMM/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DCLocator/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DDisplay/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DDisplay/Logging" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DLNA-Namespace/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DNS-Client/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DSC/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DSC/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DSC/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DSC/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DUI/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DUSER/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DXGI/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DXGI/Logging" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DXP/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Data-Pdf/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DataIntegrityScan/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DataIntegrityScan/CrashRecovery" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DateTimeControlPanel/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DateTimeControlPanel/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DateTimeControlPanel/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Deduplication/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Deduplication/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Deduplication/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Deduplication/Scrubbing" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Defrag-Core/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Deplorch/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DesktopActivityModerator/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DesktopWindowManager-Diag/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DeviceAssociationService/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DeviceConfidence/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DeviceGuard/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DeviceGuard/Verbose" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DeviceSetupManager/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DeviceSetupManager/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DeviceSetupManager/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DeviceSetupManager/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DeviceSync/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DeviceSync/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DeviceUpdateAgent/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DeviceUx/Informational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DeviceUx/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Devices-Background/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Dhcp-Client/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Dhcp-Client/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Dhcpv6-Client/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Dhcpv6-Client/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DiagCpl/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnosis-AdvancedTaskManager/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnosis-DPS/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnosis-DPS/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnosis-DPS/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnosis-MSDE/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnosis-PCW/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnosis-PCW/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnosis-PCW/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnosis-PLA/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnosis-PLA/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnosis-Perfhost/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnosis-Scheduled/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnosis-Scripted/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnosis-Scripted/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnosis-Scripted/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnosis-Scripted/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnosis-WDC/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnosis-WDI/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnostics-Networking/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnostics-Networking/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnostics-PerfTrack-Counters/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnostics-PerfTrack/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnostics-Performance/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnostics-Performance/Diagnostic/Loopback" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Diagnostics-Performance/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Direct3D10/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Direct3D10_1/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Direct3D11/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Direct3D11/Logging" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Direct3D11/PerfTiming" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Direct3D12/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Direct3D12/Logging" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Direct3D12/PerfTiming" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Direct3D9/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Direct3DShaderCache/Default" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DirectComposition/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DirectManipulation/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DirectShow-KernelSupport/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DirectSound/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Disk/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DiskDiagnostic/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DiskDiagnosticDataCollector/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DiskDiagnosticResolver/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Dism-Api/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Dism-Api/ExternalAnalytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Dism-Api/InternalAnalytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Dism-Cli/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DisplayColorCalibration/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DisplayColorCalibration/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DisplaySwitch/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Documents/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Dot3MM/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DriverFrameworks-UserMode/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Dwm-API/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Dwm-Core/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Dwm-Dwm/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Dwm-Redir/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Dwm-Udwm/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DxgKrnl-Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DxgKrnl-Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DxgKrnl/Contention" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DxgKrnl/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DxgKrnl/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DxgKrnl/Power" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-DxpTaskSyncProvider/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-EDP-Application-Learning/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-EDP-Audit-Regular/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-EDP-Audit-TCB/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-EFS/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ESE/IODiagnose" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ESE/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-EapHost/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-EapHost/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-EapHost/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-EapMethods-RasChap/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-EapMethods-RasTls/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-EapMethods-Sim/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-EapMethods-Ttls/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-EaseOfAccess/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Energy-Estimation-Engine/EventLog" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Energy-Estimation-Engine/Trace" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-EnhancedStorage-EhStorTcgDrv/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-EventCollector/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-EventCollector/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-EventLog-WMIProvider/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-EventLog/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-EventLog/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-FMS/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-FMS/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-FMS/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-FailoverClustering-Client/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Fault-Tolerant-Heap/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-FeatureConfiguration/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-FeatureConfiguration/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-FileHistory-Catalog/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-FileHistory-Catalog/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-FileHistory-ConfigManager/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-FileHistory-ConfigManager/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-FileHistory-Core/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-FileHistory-Core/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-FileHistory-Core/WHC" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-FileHistory-Engine/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-FileHistory-Engine/BackupLog" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-FileHistory-Engine/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-FileHistory-EventListener/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-FileHistory-EventListener/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-FileHistory-Service/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-FileHistory-Service/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-FileHistory-UI-Events/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-FileHistory-UI-Events/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-FileInfoMinifilter/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Firewall-CPL/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Folder Redirection/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Forwarding/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Forwarding/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-GPIO-ClassExtension/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-GenericRoaming/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-GroupPolicy/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-HAL/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-HealthCenter/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-HealthCenter/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-HealthCenterCPL/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-HelloForBusiness/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Help/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-HomeGroup Control Panel Performance/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-HomeGroup Control Panel/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-HomeGroup Listener Service/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-HomeGroup Provider Service Performance/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-HomeGroup Provider Service/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-HomeGroup-ListenerService" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-HotspotAuth/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-HotspotAuth/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-HttpService/Log" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-HttpService/Trace" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Hyper-V-Guest-Drivers/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Hyper-V-Guest-Drivers/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Hyper-V-Guest-Drivers/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Hyper-V-Guest-Drivers/Diagnose" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Hyper-V-Guest-Drivers/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Hyper-V-Hypervisor-Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Hyper-V-Hypervisor-Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Hyper-V-Hypervisor-Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Hyper-V-NETVSC/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Hyper-V-VID-Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Hyper-V-VID-Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IE-SmartScreen" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IKE/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IKEDBG/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IME-Broker/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IME-CandidateUI/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IME-CustomerFeedbackManager/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IME-CustomerFeedbackManagerUI/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IME-JPAPI/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IME-JPLMP/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IME-JPPRED/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IME-JPSetting/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IME-JPTIP/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IME-KRAPI/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IME-KRTIP/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IME-OEDCompiler/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IME-TCCORE/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IME-TCTIP/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IME-TIP/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IPNAT/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IPSEC-SRV/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IPxlatCfg/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IPxlatCfg/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IdCtrls/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IdCtrls/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-IndirectDisplays-ClassExtension-Events/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Input-HIDCLASS-Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-InputSwitch/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-International-RegionalOptionsControlPanel/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-International/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Iphlpsvc/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Iphlpsvc/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Iphlpsvc/Trace" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-KdsSvc/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kerberos/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-Acpi/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-AppCompat/General" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-AppCompat/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-ApphelpCache/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-ApphelpCache/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-ApphelpCache/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-Boot/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-Boot/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-BootDiagnostics/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-Disk/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-EventTracing/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-EventTracing/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-File/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-IO/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-Interrupt-Steering/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-IoTrace/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-LiveDump/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-Memory/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-Network/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-Pdc/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-Pep/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-PnP/Boot Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-PnP/Configuration" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-PnP/Configuration Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-PnP/Device Enumeration Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-PnP/Driver Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-Power/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-Power/Thermal-Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-Power/Thermal-Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-Prefetch/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-Process/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-Processor-Power/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-Registry/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-Registry/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-ShimEngine/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-ShimEngine/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-ShimEngine/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-StoreMgr/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-StoreMgr/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-WDI/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-WDI/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-WDI/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-WHEA/Errors" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-WHEA/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Kernel-XDV/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Known Folders API Service" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-L2NA/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-LDAP-Client/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-LSA/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-LSA/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-LSA/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-LUA-ConsentUI/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-LanguagePackSetup/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-LanguagePackSetup/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-LanguagePackSetup/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-LimitsManagement/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-LinkLayerDiscoveryProtocol/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-LinkLayerDiscoveryProtocol/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-LiveId/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-LiveId/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-MPEG2-Video-Encoder-MFT_Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-MPS-CLNT/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-MPS-DRV/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-MPS-SRV/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-MSFTEDIT/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-MSPaint/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-MSPaint/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-MSPaint/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-MUI/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-MUI/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-MUI/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-MUI/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Media-Streaming/DMC" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Media-Streaming/DMR" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Media-Streaming/MDE" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-MediaFoundation-MFCaptureEngine/MFCaptureEngine" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-MediaFoundation-MFReadWrite/SinkWriter" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-MediaFoundation-MFReadWrite/SourceReader" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-MediaFoundation-MFReadWrite/Transform" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-MediaFoundation-Performance/SARStreamResource" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-MediaFoundation-PlayAPI/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-MemoryDiagnostics-Results/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Minstore/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Minstore/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Mobile-Broadband-Experience-Api-Internal/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Mobile-Broadband-Experience-Api/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Mobile-Broadband-Experience-Parser-Task/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Mobile-Broadband-Experience-Parser-Task/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Mobile-Broadband-Experience-SmsApi/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-MobilityCenter/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ModernDeployment-Diagnostics-Provider/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ModernDeployment-Diagnostics-Provider/Autopilot" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ModernDeployment-Diagnostics-Provider/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ModernDeployment-Diagnostics-Provider/ManagementService" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Mprddm/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-NCSI/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-NCSI/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-NDF-HelperClassDiscovery/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-NDIS-PacketCapture/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-NDIS/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-NDIS/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-NFC-Class-Extension/Analytical" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-NTLM/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-NWiFi/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Narrator/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Ncasvc/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-NcdAutoSetup/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-NcdAutoSetup/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-NdisImPlatform/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Ndu/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-NetShell/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Network-Connection-Broker" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Network-DataUsage/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Network-Setup/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Network-and-Sharing-Center/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-NetworkBridge/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-NetworkLocationWizard/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-NetworkProfile/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-NetworkProfile/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-NetworkProvider/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-NetworkProvisioning/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-NetworkProvisioning/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-NetworkSecurity/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-NetworkStatus/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Networking-Correlation/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Networking-RealTimeCommunication/Tracing" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-NlaSvc/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-NlaSvc/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Ntfs/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Ntfs/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Ntfs/WHC" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-OLE/Clipboard-Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-OLEACC/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-OLEACC/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-OOBE-FirstLogonAnim/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-OOBE-Machine-Core/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-OOBE-Machine-DUI/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-OOBE-Machine-DUI/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-OOBE-Machine-Plugins-Wireless/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-OfflineFiles/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-OfflineFiles/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-OfflineFiles/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-OfflineFiles/SyncLog" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-OneBackup/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-OneX/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-OneX/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-OobeLdr/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-OtpCredentialProvider/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PCI/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PackageStateRoaming/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PackageStateRoaming/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PackageStateRoaming/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ParentalControls/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Partition/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Partition/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PeerToPeerDrtEventProvider/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PerceptionRuntime/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PerceptionSensorDataService/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PersistentMemory-Nvdimm/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PersistentMemory-Nvdimm/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PersistentMemory-Nvdimm/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PersistentMemory-PmemDisk/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PersistentMemory-PmemDisk/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PersistentMemory-PmemDisk/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PersistentMemory-ScmBus/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PersistentMemory-ScmBus/Certification" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PersistentMemory-ScmBus/Diagnose" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PersistentMemory-ScmBus/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PhotoAcq/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PlayToManager/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Policy/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Policy/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PortableDeviceStatusProvider/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PortableDeviceSyncProvider/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Power-Meter-Polling/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PowerCfg/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PowerCpl/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PowerEfficiencyDiagnostics/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PowerShell/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PowerShell/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PowerShell/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PowerShell/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PrimaryNetworkIcon/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PrintBRM/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PrintService-USBMon/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PrintService/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PrintService/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PrintService/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ProcessStateManager/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Program-Compatibility-Assistant/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Program-Compatibility-Assistant/CompatAfterUpgrade" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Provisioning-Diagnostics-Provider/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Provisioning-Diagnostics-Provider/AutoPilot" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Provisioning-Diagnostics-Provider/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Provisioning-Diagnostics-Provider/ManagementService" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Proximity-Common/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Proximity-Common/Informational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Proximity-Common/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PushNotification-Developer/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PushNotification-InProc/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PushNotification-Platform/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PushNotification-Platform/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-PushNotification-Platform/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-QoS-Pacer/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-QoS-qWAVE/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-RPC-Proxy/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-RPC/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-RPC/EEInfo" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-RRAS/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-RRAS/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-RadioManager/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Ras-NdisWanPacketCapture/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-RasAgileVpn/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-RasAgileVpn/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ReFS/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ReadyBoost/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ReadyBoost/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ReadyBoostDriver/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ReadyBoostDriver/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Regsvr32/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-RemoteApp and Desktop Connections/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-RemoteApp and Desktop Connections/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-RemoteAssistance/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-RemoteAssistance/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-RemoteAssistance/Tracing" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-RemoteDesktopServices-RemoteFX-Synth3dvsc/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-RemoteDesktopServices-RemoteFX-VM-Kernel-Mode-Transport/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-RemoteDesktopServices-RemoteFX-VM-User-Mode-Transport/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-RemoteDesktopServices-SessionServices/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Remotefs-Rdbss/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Remotefs-Rdbss/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ResetEng-Trace/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Resource-Exhaustion-Detector/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Resource-Exhaustion-Resolver/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ResourcePublication/Tracing" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-RestartManager/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-RetailDemo/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-RetailDemo/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Runtime-Graphics/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Runtime-Networking-BackgroundTransfer/Tracing" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Runtime-Networking/Tracing" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Runtime-Web-Http/Tracing" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Runtime-WebAPI/Tracing" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Runtime-Windows-Media/WinRTAdaptiveMediaSource" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Runtime-Windows-Media/WinRTCaptureEngine" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Runtime-Windows-Media/WinRTMediaStreamSource" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Runtime-Windows-Media/WinRTTranscode" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Runtime/CreateInstance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Runtime/Error" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SENSE/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SMBClient/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SMBClient/HelperClassDiagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SMBClient/ObjectStateDiagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SMBClient/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SMBDirect/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SMBDirect/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SMBDirect/Netmon" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SMBServer/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SMBServer/Audit" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SMBServer/Connectivity" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SMBServer/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SMBServer/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SMBServer/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SMBServer/Security" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SMBWitnessClient/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SMBWitnessClient/Informational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SPB-ClassExtension/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SPB-HIDI2C/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Schannel-Events/Perf" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Sdbus/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Sdbus/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Sdstor/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Search-Core/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Search-ProtocolHandlers/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SearchUI/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SearchUI/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SecureAssessment/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Security-Adminless/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Security-Audit-Configuration-Client/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Security-Audit-Configuration-Client/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Security-EnterpriseData-FileRevocationManager/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Security-ExchangeActiveSyncProvisioning/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Security-ExchangeActiveSyncProvisioning/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Security-IdentityListener/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Security-IdentityStore/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Security-LessPrivilegedAppContainer/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Security-Mitigations/KernelMode" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Security-Mitigations/UserMode" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Security-Netlogon/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Security-SPP-UX-GC/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Security-SPP-UX-GenuineCenter-Logging/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Security-SPP-UX-Notifications/ActionCenter" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Security-SPP-UX/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Security-SPP/Perf" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Security-UserConsentVerifier/Audit" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Security-Vault/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SecurityMitigationsBroker/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SecurityMitigationsBroker/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SecurityMitigationsBroker/Perf" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SendTo/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Sens/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SenseIR/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Sensors/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Sensors/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Serial-ClassExtension-V2/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Serial-ClassExtension/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ServiceReportingApi/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Services-Svchost/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Services/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Servicing/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SettingSync-Azure/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SettingSync-Azure/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SettingSync-OneDrive/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SettingSync-OneDrive/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SettingSync-OneDrive/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SettingSync/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SettingSync/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SettingSync/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SettingSync/VerboseDebug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Setup/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SetupCl/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SetupPlatform/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SetupQueue/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SetupUGC/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ShareMedia-ControlPanel/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Shell-AppWizCpl/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Shell-AuthUI-BootAnim/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Shell-AuthUI-Common/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Shell-AuthUI-CredUI/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Shell-AuthUI-CredentialProviderUser/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Shell-AuthUI-Logon/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Shell-AuthUI-LogonUI/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Shell-AuthUI-Shutdown/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Shell-ConnectedAccountState/ActionCenter" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Shell-Core/ActionCenter" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Shell-Core/AppDefaults" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Shell-Core/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Shell-Core/LogonTasksChannel" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Shell-Core/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Shell-DefaultPrograms/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Shell-LockScreenContent/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Shell-OpenWith/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Shell-Search-UriHandler" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Shell-Shwebsvc" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Shell-ZipFolder/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ShellCommon-StartLayoutPopulation/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ShellCommon-StartLayoutPopulation/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Shsvcs/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SleepStudy/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SmartCard-Audit/Authentication" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SmartCard-DeviceEnum/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SmartCard-TPM-VCard-Module/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SmartCard-TPM-VCard-Module/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SmartScreen/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SmbClient/Audit" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SmbClient/Connectivity" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SmbClient/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SmbClient/Security" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Speech-UserExperience/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Spell-Checking/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SpellChecker/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Spellchecking-Host/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SruMon/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SrumTelemetry" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-StateRepository/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-StateRepository/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-StateRepository/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-StateRepository/Restricted" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-StorDiag/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-StorPort/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Storage-ATAPort/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Storage-ATAPort/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Storage-ATAPort/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Storage-ATAPort/Diagnose" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Storage-ATAPort/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Storage-ClassPnP/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Storage-ClassPnP/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Storage-ClassPnP/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Storage-ClassPnP/Diagnose" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Storage-ClassPnP/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Storage-Disk/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Storage-Disk/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Storage-Disk/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Storage-Disk/Diagnose" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Storage-Disk/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Storage-Storport/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Storage-Storport/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Storage-Storport/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Storage-Storport/Diagnose" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Storage-Storport/Health" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Storage-Storport/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Storage-Tiering-IoHeat/Heat" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Storage-Tiering/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-StorageManagement/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-StorageManagement/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-StorageSpaces-Driver/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-StorageSpaces-Driver/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-StorageSpaces-Driver/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-StorageSpaces-ManagementAgent/WHC" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-StorageSpaces-SpaceManager/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-StorageSpaces-SpaceManager/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Store/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Storsvc/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Subsys-Csr/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Subsys-SMSS/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Superfetch/Main" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Superfetch/PfApLog" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Superfetch/StoreLog" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Sysprep/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-System-Profile-HardwareId/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SystemSettingsHandlers/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SystemSettingsThreshold/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SystemSettingsThreshold/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-SystemSettingsThreshold/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TCPIP/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TCPIP/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TSF-msctf/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TSF-msctf/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TSF-msutb/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TSF-msutb/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TTS/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TWinAPI/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TWinUI/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TWinUI/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TZSync/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TZSync/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TZUtil/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TaskScheduler/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TaskScheduler/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TaskScheduler/Maintenance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TaskScheduler/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TaskbarCPL/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-ClientUSBDevices/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-ClientUSBDevices/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-ClientUSBDevices/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-ClientUSBDevices/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-LocalSessionManager/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-LocalSessionManager/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-LocalSessionManager/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-MediaRedirection/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-PnPDevices/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-PnPDevices/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-PnPDevices/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-PnPDevices/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-Printers/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-Printers/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-Printers/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-Printers/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-RDPClient/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-RDPClient/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-RDPClient/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-RdpSoundDriver/Capture" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-RdpSoundDriver/Playback" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-RemoteConnectionManager/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-RemoteConnectionManager/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-RemoteConnectionManager/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-ServerUSBDevices/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-ServerUSBDevices/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-ServerUSBDevices/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TerminalServices-ServerUSBDevices/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Tethering-Manager/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Tethering-Station/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ThemeCPL/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ThemeUI/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Threat-Intelligence/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Time-Service-PTP-Provider/PTP-Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Time-Service/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Troubleshooting-Recommended/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Troubleshooting-Recommended/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-TunnelDriver" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-UAC-FileVirtualization/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-UAC/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-UI-Shell/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-UIAnimation/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-UIAutomationCore/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-UIAutomationCore/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-UIAutomationCore/Perf" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-UIRibbon/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-USB-MAUSBHOST-Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-USB-UCX-Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-USB-USBHUB/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-USB-USBHUB3-Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-USB-USBPORT/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-USB-USBXHCI-Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-USB-USBXHCI-Trustlet-Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-UniversalTelemetryClient/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-User Control Panel Performance/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-User Control Panel Usage/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-User Control Panel/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-User Control Panel/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-User Device Registration/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-User Device Registration/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-User Profile Service/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-User Profile Service/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-User-Loader/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-User-Loader/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-UserAccountControl/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-UserModePowerService/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-UserPnp/ActionCenter" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-UserPnp/DeviceInstall" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-UserPnp/DeviceMetadata/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-UserPnp/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-UserPnp/SchedulerOperations" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-UxInit/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-UxTheme/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-VAN/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-VDRVROOT/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-VHDMP-Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-VHDMP-Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-VIRTDISK-Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-VPN-Client/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-VPN/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-VWiFi/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-VerifyHardwareSecurity/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-VerifyHardwareSecurity/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Volume/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-VolumeControl/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-VolumeSnapshot-Driver/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-VolumeSnapshot-Driver/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WABSyncProvider/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WCN-Config-Registrar/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WCNWiz/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WDAG-PolicyEvaluator-CSP/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WDAG-PolicyEvaluator-GP/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WEPHOSTSVC/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WER-PayloadHealth/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WFP/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WFP/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WLAN-AutoConfig/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WLAN-Autoconfig/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WLAN-Driver/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WLAN-MediaManager/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WLANConnectionFlow/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WMI-Activity/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WMI-Activity/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WMI-Activity/Trace" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WMPDMCUI/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WMPNSS-PublicAPI/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WMPNSS-Service/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WMPNSS-Service/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WMPNSSUI/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WPD-API/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WPD-ClassInstaller/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WPD-ClassInstaller/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WPD-CompositeClassDriver/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WPD-CompositeClassDriver/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WPD-MTPBT/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WPD-MTPClassDriver/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WPD-MTPClassDriver/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WPD-MTPIP/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WPD-MTPUS/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WSC-SRV/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WUSA/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WWAN-CFE/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WWAN-MM-Events/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WWAN-MediaManager/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WWAN-NDISUIO-EVENTS/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WWAN-SVC-Events/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WWAN-SVC-Events/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Wcmsvc/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Wcmsvc/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WebAuth/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WebAuthN/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WebIO-NDF/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WebIO/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WebPlatStorage-Server" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WebServices/Tracing" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WebcamProvider/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Websocket-Protocol-Component/Tracing" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WiFiDisplay/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Win32k/Concurrency" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Win32k/Contention" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Win32k/Messages" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Win32k/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Win32k/Power" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Win32k/Render" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Win32k/Tracing" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Win32k/UIPI" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WinHTTP-NDF/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WinHttp/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WinINet-Capture/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WinINet-Config/ProxyConfigChanged" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WinINet/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WinINet/UsageLog" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WinINet/WebSocket" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WinMDE/MDE" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WinML/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WinNat/Oper" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WinNat/Trace" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WinRM/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WinRM/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WinRM/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WinURLMon/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Windeploy/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Windows Defender/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Windows Defender/WHC" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Windows Firewall With Advanced Security/ConnectionSecurity" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Windows Firewall With Advanced Security/ConnectionSecurityVerbose" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Windows Firewall With Advanced Security/Firewall" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Windows Firewall With Advanced Security/FirewallDiagnostics" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Windows Firewall With Advanced Security/FirewallVerbose" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WindowsBackup/ActionCenter" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WindowsColorSystem/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WindowsColorSystem/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WindowsSystemAssessmentTool/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WindowsSystemAssessmentTool/Tracing" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WindowsUIImmersive/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WindowsUIImmersive/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WindowsUpdateClient/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WindowsUpdateClient/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Wininit/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Winlogon/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Winlogon/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Winsock-AFD/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Winsock-NameResolution/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Winsock-WS2HELP/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Winsrv/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Wired-AutoConfig/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Wired-AutoConfig/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WlanDlg/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Wordpad/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Wordpad/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Wordpad/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WorkFolders/Analytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WorkFolders/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WorkFolders/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-WorkFolders/WHC" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-Workplace Join/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-XAML-Diagnostics/Default" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-XAML/Default" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-XAudio2/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-XAudio2/Performance" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-glcnd/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-glcnd/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-glcnd/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-mobsync/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ntshrui" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-ntshrui-perf" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-osk/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-Windows-stobject/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-WindowsPhone-Connectivity-WiFiConnSvc-Channel" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-WindowsPhone-LocationServiceProvider/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-WindowsPhone-Net-Cellcore-CellManager/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Microsoft-WindowsPhone-Net-Cellcore-CellularAPI/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "NIS-Driver-WFP/Diagnostic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Navigator" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Network Isolation Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "OSK_SoftKeyboard_Channel" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "OpenSSH/Admin" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "OpenSSH/Debug" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "OpenSSH/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Physical_Keyboard_Manager_Channel" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "PlayReadyPerformanceChannel" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "RTWorkQueueExtended" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "RTWorkQueueTheading" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "SMSApi" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Security" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Setup" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "SmbWmiAnalytic" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "System" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "SystemEventsBroker" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "TabletPC_InputPanel_Channel" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "TabletPC_InputPanel_Channel/IHM" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "TimeBroker" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "UIManager_Channel" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "WINDOWS_KS_CHANNEL" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "WINDOWS_MFH264Enc_CHANNEL" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "WINDOWS_MP4SDECD_CHANNEL" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "WINDOWS_MSMPEG2ADEC_CHANNEL" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "WINDOWS_MSMPEG2VDEC_CHANNEL" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "WINDOWS_VC1ENC_CHANNEL" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "WINDOWS_WMPHOTO_CHANNEL" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "WINDOWS_wmvdecod_CHANNEL" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "WMPSetup" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "WMPSyncEngine" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Windows Networking Vpn Plugin Platform/Operational" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Windows Networking Vpn Plugin Platform/OperationalVerbose" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "Windows PowerShell" 
+
+C:\Users\student\Desktop\TEAMPROJRAT\UDP_Connection>wevtutil.exe cl "muxencode" 
+

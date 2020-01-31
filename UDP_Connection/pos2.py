@@ -101,9 +101,9 @@ def CostOfOrder():
     CostOfItems = "$" + str('%.2f' % (TaxPay + Cost))
     TotalCost.set(CostOfItems)
     # set the customer/payment reference using randint
-    x = random.randint(10034, 699812)
-    randomRef = str(x)
-    PaymentRef.set("Bill" + randomRef)
+    # x = random.randint(10034, 699812)
+    # randomRef = str(x)
+    # PaymentRef.set("Bill" + randomRef)
 # define the par reference function
 def PayReference():
      # set the customer/payment reference using randint

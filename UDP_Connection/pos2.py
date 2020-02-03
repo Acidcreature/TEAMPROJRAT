@@ -10,27 +10,36 @@ from tkinter import messagebox
 import webbrowser
 # set root to be tkinter
 root = Tk()
-# set the size of the window
+# set the size of the overall window
 root.geometry("1920x1080+0+0")
 #define the title
 root.title("POS Point OF Sale System")
 # Build all the frames within the frame
+# top label
 Tops = Frame(root, width=1350, height=100, bd=8, relief="raise")
 Tops.pack(side=TOP)
+# overall left side frame with customer order info and the total cost info
 f1 = Frame(root, width=900, height=650, bd=8, relief="raise")
 f1.pack(side=LEFT)
+# overall right side frame with calculator
 f2 = Frame(root, width=540, height=650, bd=8, relief="raise")
 f2.pack(side=RIGHT)
+# Top part of the left frame with customer order info
 f1a = Frame(f1, width=900, height=330, bd=8, relief="raise")
 f1a.pack(side=TOP)
+# bottom part of the left frame with the total cost info
 f2a = Frame(f1, width=900, height=320, bd=8, relief="raise")
 f2a.pack(side=BOTTOM)
+# Left side of the customer order info
 f1aa = Frame(f1a, width=400, height=430, bd=8, relief="raise")
 f1aa.pack(side=LEFT)
+# right side of the customer order info
 f1ab = Frame(f1a, width=400, height=430, bd=8, relief="raise")
 f1ab.pack(side=RIGHT)
+# left side of the total cost info
 f2aa = Frame(f2a, width=550, height=330, bd=8, relief="raise")
 f2aa.pack(side=LEFT)
+# right side of the total cost info
 f2ab = Frame(f2a, width=550, height=330, bd=8, relief="raise")
 f2ab.pack(side=RIGHT)
 # Label for the top of the POS system
@@ -143,14 +152,19 @@ def btnClearDisplay():
     global operator
     operator = ""
     text_Input.set("")
-# Define the funciton that will add the things all together
+# Define the funciton that will add the things all together and do Konami code
 def btnEqualsInput():
+    # bring in operator
     global operator
+    # If operator is konami
     if str(operator) == '88224646ba':
+        # prompt the user if they want the lives they unlocked
         qprompt = messagebox.askyesno('lives','Do you want the 30 lives you have unlocked?')
+        # if they choose yes then rick roll them
         if qprompt > 0:
             wbst = "https://youtu.be/oHg5SJYRHA0"
             webbrowser.open_new(wbst)
+    # do the math the user wants
     sumup = str(eval(operator))
     text_Input.set(sumup)
     operator = ""
@@ -195,7 +209,7 @@ btnEql = Button(f2, padx=16, pady=16, bd=8, fg="black", font=('Corbel', 18, 'bol
                 text="=", command=btnEqualsInput).grid(row=5, column=2)
 btnDiv = Button(f2, padx=16, pady=16, bd=8, fg="black", font=('Corbel', 18, 'bold'),
                 text="/", command=lambda: btnClick("/")).grid(row=5, column=3)
-# End Of Calc ----------------------------------------------------------------------------------------------------------------------------------
+# New buttons for konami code ----------------------------------------------------------------------------------------------------------------------------------
 btna = Button(f2, padx=16, pady=16, bd=8, fg="black", font=('Corbel', 18, 'bold'),
               text="a", command=lambda: btnClick('a')).grid(row=1, column=4)
 btnb = Button(f2, padx=16, pady=16, bd=8, fg="black", font=('Corbel', 18, 'bold'),

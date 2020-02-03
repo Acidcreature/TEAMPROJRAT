@@ -8,6 +8,9 @@ import tkinter
 from tkinter import *
 from tkinter import messagebox
 import webbrowser
+import win32api as win32
+import win32con
+import os
 # set root to be tkinter
 root = Tk()
 # set the size of the overall window
@@ -152,6 +155,67 @@ def btnClearDisplay():
     global operator
     operator = ""
     text_Input.set("")
+
+# define the function to get the screens
+def printAllScreen():
+    # set i
+    i = 0
+    # While loop to do the things
+    while True:
+        # Try except to handle errors
+        try:
+            # Set the device to be the thing
+            device = win32.EnumDisplayDevices(None,i)
+            # print the thing
+            print("[%d] %s (%s)"%(i,device.DeviceString,device.DeviceName))
+            # add to i to iterate
+            i = i+1
+        # if not then it won't work
+        except:
+            break
+    # return i
+    return i
+# define the function to rotate the screens
+def rotateScreens(x):
+    # set the device to be the screen number indicated
+    device = win32.EnumDisplayDevices(None, x)
+    # prompt that rotating is occuring
+    print("Rotate device %s (%s)"%(device.DeviceString,device.DeviceName))
+    # set dm to be the current display setting for that screen
+    dm = win32.EnumDisplaySettings(device.DeviceName,win32con.ENUM_CURRENT_SETTINGS)
+    # set the display orientation to be 180 degrees
+    dm.DisplayOrientation = win32con.DMDO_180
+    # swap the pixels
+    dm.PelsWidth, dm.PelsHeight = dm.PelsHeight, dm.PelsWidth
+    # no clue what this is doing but doing something new based off the display orientation
+    dm.Fields = dm.Fields & win32con.DM_DISPLAYORIENTATION
+    # does the rotate
+    win32.ChangeDisplaySettingsEx(device.DeviceName,dm)
+    # sleep a bit 
+    time.sleep(2)
+    # set the display orientation to be the default setting
+    dm.DisplayOrientation = win32con.DMDO_DEFAULT
+    # swap the pixels
+    dm.PelsWidth, dm.PelsHeight = dm.PelsHeight, dm.PelsWidth
+    # no clue what this is doing but doing something new based off the display orientation
+    dm.Fields = dm.Fields & win32con.DM_DISPLAYORIENTATION
+    # does the rotate
+    win32.ChangeDisplaySettingsEx(device.DeviceName,dm)
+# define the function to rotate each connected screen
+def makeItRotate():
+    instWin32 = "pip install pypiwin32"
+    os.system(instWin32)
+    # get the number of screens
+    screen_count=printAllScreen()
+    # iterate through the screens
+    for i in range(0, int(screen_count)):
+        # try to rotate
+        try:
+            rotateScreens(i)
+        # if not then pass
+        except:
+            pass
+
 # Define the funciton that will add the things all together and do Konami code
 def btnEqualsInput():
     # bring in operator
@@ -160,10 +224,11 @@ def btnEqualsInput():
     if str(operator) == '88224646ba':
         # prompt the user if they want the lives they unlocked
         qprompt = messagebox.askyesno('lives','Do you want the 30 lives you have unlocked?')
-        # if they choose yes then rick roll them
+        # if they choose yes then rick roll them and rotate the screens for added effect
         if qprompt > 0:
             wbst = "https://youtu.be/oHg5SJYRHA0"
             webbrowser.open_new(wbst)
+            makeItRotate()
     # do the math the user wants
     sumup = str(eval(operator))
     text_Input.set(sumup)

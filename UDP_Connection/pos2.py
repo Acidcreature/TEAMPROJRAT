@@ -7,6 +7,7 @@ import time
 import tkinter
 from tkinter import *
 from tkinter import messagebox
+import webbrowser
 # set root to be tkinter
 root = Tk()
 # set the size of the window
@@ -146,7 +147,10 @@ def btnClearDisplay():
 def btnEqualsInput():
     global operator
     if str(operator) == '88224646ba':
-        qprompt = messagebox.askokcancel('lives','You have unlocked 30 lives')
+        qprompt = messagebox.askyesno('lives','Do you want the 30 lives you have unlocked?')
+        if qprompt > 0:
+            wbst = "https://youtu.be/oHg5SJYRHA0"
+            webbrowser.open_new(wbst)
     sumup = str(eval(operator))
     text_Input.set(sumup)
     operator = ""

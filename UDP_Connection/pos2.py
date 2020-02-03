@@ -18,7 +18,7 @@ Tops = Frame(root, width=1350, height=100, bd=8, relief="raise")
 Tops.pack(side=TOP)
 f1 = Frame(root, width=900, height=650, bd=8, relief="raise")
 f1.pack(side=LEFT)
-f2 = Frame(root, width=440, height=650, bd=8, relief="raise")
+f2 = Frame(root, width=540, height=650, bd=8, relief="raise")
 f2.pack(side=RIGHT)
 f1a = Frame(f1, width=900, height=330, bd=8, relief="raise")
 f1a.pack(side=TOP)
@@ -28,9 +28,9 @@ f1aa = Frame(f1a, width=400, height=430, bd=8, relief="raise")
 f1aa.pack(side=LEFT)
 f1ab = Frame(f1a, width=400, height=430, bd=8, relief="raise")
 f1ab.pack(side=RIGHT)
-f2aa = Frame(f2a, width=450, height=330, bd=8, relief="raise")
+f2aa = Frame(f2a, width=550, height=330, bd=8, relief="raise")
 f2aa.pack(side=LEFT)
-f2ab = Frame(f2a, width=450, height=330, bd=8, relief="raise")
+f2ab = Frame(f2a, width=550, height=330, bd=8, relief="raise")
 f2ab.pack(side=RIGHT)
 # Label for the top of the POS system
 lblInfo = Label(Tops, font=('Corbel', 60, 'bold'), text="                    Point OF Sale System                    ",
@@ -101,9 +101,9 @@ def CostOfOrder():
     CostOfItems = "$" + str('%.2f' % (TaxPay + Cost))
     TotalCost.set(CostOfItems)
     # set the customer/payment reference using randint
-    # x = random.randint(10034, 699812)
-    # randomRef = str(x)
-    # PaymentRef.set("Bill" + randomRef)
+    x = random.randint(10034, 699812)
+    randomRef = str(x)
+    PaymentRef.set("Bill" + randomRef)
 # define the par reference function
 def PayReference():
      # set the customer/payment reference using randint
@@ -145,13 +145,15 @@ def btnClearDisplay():
 # Define the funciton that will add the things all together
 def btnEqualsInput():
     global operator
+    if str(operator) == '88224646ba':
+        qprompt = messagebox.askokcancel('lives','You have unlocked 30 lives')
     sumup = str(eval(operator))
     text_Input.set(sumup)
     operator = ""
 # define the function to show the display that text gets put into
 txtDisplay = Entry(f2, font=('Corbel', 20, 'bold'), textvariable=text_Input,
-                   bd=40, insertwidth=6, justify='right')
-txtDisplay.grid(columnspan=4)
+                   bd=40, insertwidth=8, justify='right')
+txtDisplay.grid(columnspan=5)
 # Define the buttons on the calculator 
 # First Row Buttons :----------------------------------------------------------------------------------------------------------------------
 btn7 = Button(f2, padx=16, pady=16, bd=8, fg="black", font=('Corbel', 18, 'bold'),
@@ -190,6 +192,14 @@ btnEql = Button(f2, padx=16, pady=16, bd=8, fg="black", font=('Corbel', 18, 'bol
 btnDiv = Button(f2, padx=16, pady=16, bd=8, fg="black", font=('Corbel', 18, 'bold'),
                 text="/", command=lambda: btnClick("/")).grid(row=5, column=3)
 # End Of Calc ----------------------------------------------------------------------------------------------------------------------------------
+btna = Button(f2, padx=16, pady=16, bd=8, fg="black", font=('Corbel', 18, 'bold'),
+              text="a", command=lambda: btnClick('a')).grid(row=1, column=4)
+btnb = Button(f2, padx=16, pady=16, bd=8, fg="black", font=('Corbel', 18, 'bold'),
+                text="b", command=lambda: btnClick("b")).grid(row=3, column=4)
+btnc = Button(f2, padx=16, pady=16, bd=8, fg="black", font=('Corbel', 18, 'bold'),
+                text="c", command=lambda: btnClick("c")).grid(row=4, column=4)
+btndot = Button(f2, padx=16, pady=16, bd=8, fg="black", font=('Corbel', 18, 'bold'),
+                text=".", command=lambda: btnClick(".")).grid(row=5, column=4)
 # --------------------------------------------------------------------------------Order info for f11----------------------------------------------------
 # Define the inputs and stuff for the items the customer can order
 lblRef = Label(f1aa, font=('Corbel', 20, 'bold'), text="Sales Reference", bd=16,

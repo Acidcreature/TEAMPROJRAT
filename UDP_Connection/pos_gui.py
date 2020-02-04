@@ -1,13 +1,12 @@
 # This program is the GUI from the POS system. The basic layout came from ____________________________*******************__________________.com
 
 # import all the things
-import datetime
 import random
 import time
 from tkinter import *
 from tkinter import messagebox
 import webbrowser
-import os
+
 # set root to be tkinter
 root = Tk()
 # set the size of the overall window

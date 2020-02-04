@@ -1,7 +1,3 @@
-#netconnect and gui2 are house built classes designed specifically for this program
-from netconnect import *
-from gui2 import *
-
 #These modules are required for the functionality of this program
 import threading
 from pathlib import Path
@@ -11,12 +7,12 @@ from pathlib import Path
 class Client:
     def __init__(self):
         pass
-    
-    #This will run the gui interface that is designed 
+
+    #This will run the gui interface that is designed
     #to send udp packets to the server
     def client_gui(self):
         exec(Path(f'client/client.py').read_text())
-    
+
     #This will start the client listener for the server to communicate with
     def client_listener(self):
         exec(Path(f'client/client_listener.py').read_text())

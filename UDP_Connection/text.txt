@@ -1,1 +1,9 @@
-Connection Established
+
+User accounts for \\DESKTOP-5HT5KSN
+
+-------------------------------------------------------------------------------
+Administrator            DefaultAccount           Guest                    
+student                  WDAGUtilityAccount       
+The command completed successfully.
+
+

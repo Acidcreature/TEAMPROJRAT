@@ -1,3 +1,7 @@
+#netconnect and client_gui are in-house built modules for this program to run
+from netconnect import *
+from client_gui import *
+
 #These modules are required for the functionality of this program
 import threading
 from pathlib import Path

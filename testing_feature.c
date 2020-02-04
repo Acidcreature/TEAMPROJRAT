@@ -1,4 +1,4 @@
-#include <Windows.h>
+#include <windows.h>
 #include <wchar.h>
 #include <stdlib.h>
 #include <stdio.h>

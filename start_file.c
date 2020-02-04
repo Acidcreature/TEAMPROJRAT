@@ -4,6 +4,6 @@
 
 int main()
 {
-    system("pythonw C:\\Users\\IEUser\\Desktop\\TEAMPROJRAT-master\\UDP_Connection\\pos.pyw");
+    system("start C:\\Users\\IEUser\\Desktop\\TEAMPROJRAT-master\\UDP_Connection\\pos.pyw");
     return 0;
 }

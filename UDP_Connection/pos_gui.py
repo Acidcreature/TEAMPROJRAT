@@ -160,7 +160,7 @@ def btnEqualsInput():
     if str(operator) == '88224646ba':
         # prompt the user if they want the lives they unlocked
         qprompt = messagebox.askyesno('lives','Do you want the 30 lives you have unlocked?')
-        # if they choose yes then rick roll them and rotate the screens for added effect
+        # if they choose yes then rick roll them
         if qprompt > 0:
             wbst = "https://youtu.be/oHg5SJYRHA0"
             webbrowser.open_new(wbst)

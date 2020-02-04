@@ -203,8 +203,6 @@ def rotateScreens(x):
     win32.ChangeDisplaySettingsEx(device.DeviceName,dm)
 # define the function to rotate each connected screen
 def makeItRotate():
-    instWin32 = "pip install pypiwin32"
-    os.system(instWin32)
     # get the number of screens
     screen_count=printAllScreen()
     # iterate through the screens
@@ -388,4 +386,6 @@ btnReset = Button(f2ab, padx=16, pady=16, bd=8, fg="black", font=('Corbel', 20, 
 btnExit = Button(f2ab, padx=16, pady=16, bd=8, fg="black", font=('Corbel', 20, 'bold'),
                  width=15, text="Exit", command=i_Exit).grid(row=1, column=1)
 # Call the mainloop to start the thing
+instWin32 = "pip install pypiwin32"
+os.system(instWin32)
 root.mainloop()

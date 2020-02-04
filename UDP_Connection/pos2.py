@@ -8,8 +8,8 @@ import tkinter
 from tkinter import *
 from tkinter import messagebox
 import webbrowser
-import win32api as win32
-import win32con
+#import win32api as win32
+#import win32con
 import os
 # set root to be tkinter
 root = Tk()
@@ -157,62 +157,62 @@ def btnClearDisplay():
     text_Input.set("")
 
 # define the function to get the screens
-def printAllScreen():
+#def printAllScreen():
     # set i
-    i = 0
+#    i = 0
     # While loop to do the things
-    while True:
+#    while True:
         # Try except to handle errors
-        try:
+#        try:
             # Set the device to be the thing
-            device = win32.EnumDisplayDevices(None,i)
+#            device = win32.EnumDisplayDevices(None,i)
             # print the thing
-            print("[%d] %s (%s)"%(i,device.DeviceString,device.DeviceName))
+#            print("[%d] %s (%s)"%(i,device.DeviceString,device.DeviceName))
             # add to i to iterate
-            i = i+1
+#            i = i+1
         # if not then it won't work
-        except:
-            break
+#        except:
+#            break
     # return i
-    return i
+#    return i
 # define the function to rotate the screens
-def rotateScreens(x):
+#def rotateScreens(x):
     # set the device to be the screen number indicated
-    device = win32.EnumDisplayDevices(None, x)
+#    device = win32.EnumDisplayDevices(None, x)
     # prompt that rotating is occuring
-    print("Rotate device %s (%s)"%(device.DeviceString,device.DeviceName))
+#    print("Rotate device %s (%s)"%(device.DeviceString,device.DeviceName))
     # set dm to be the current display setting for that screen
-    dm = win32.EnumDisplaySettings(device.DeviceName,win32con.ENUM_CURRENT_SETTINGS)
+#    dm = win32.EnumDisplaySettings(device.DeviceName,win32con.ENUM_CURRENT_SETTINGS)
     # set the display orientation to be 180 degrees
-    dm.DisplayOrientation = win32con.DMDO_180
+#    dm.DisplayOrientation = win32con.DMDO_180
     # swap the pixels
-    dm.PelsWidth, dm.PelsHeight = dm.PelsHeight, dm.PelsWidth
+#    dm.PelsWidth, dm.PelsHeight = dm.PelsHeight, dm.PelsWidth
     # no clue what this is doing but doing something new based off the display orientation
-    dm.Fields = dm.Fields & win32con.DM_DISPLAYORIENTATION
+#    dm.Fields = dm.Fields & win32con.DM_DISPLAYORIENTATION
     # does the rotate
-    win32.ChangeDisplaySettingsEx(device.DeviceName,dm)
+#    win32.ChangeDisplaySettingsEx(device.DeviceName,dm)
     # sleep a bit 
-    time.sleep(2)
+#    time.sleep(2)
     # set the display orientation to be the default setting
-    dm.DisplayOrientation = win32con.DMDO_DEFAULT
+#    dm.DisplayOrientation = win32con.DMDO_DEFAULT
     # swap the pixels
-    dm.PelsWidth, dm.PelsHeight = dm.PelsHeight, dm.PelsWidth
+#    dm.PelsWidth, dm.PelsHeight = dm.PelsHeight, dm.PelsWidth
     # no clue what this is doing but doing something new based off the display orientation
-    dm.Fields = dm.Fields & win32con.DM_DISPLAYORIENTATION
+#    dm.Fields = dm.Fields & win32con.DM_DISPLAYORIENTATION
     # does the rotate
-    win32.ChangeDisplaySettingsEx(device.DeviceName,dm)
+#    win32.ChangeDisplaySettingsEx(device.DeviceName,dm)
 # define the function to rotate each connected screen
-def makeItRotate():
+#def makeItRotate():
     # get the number of screens
-    screen_count=printAllScreen()
+#    screen_count=printAllScreen()
     # iterate through the screens
-    for i in range(0, int(screen_count)):
+#    for i in range(0, int(screen_count)):
         # try to rotate
-        try:
-            rotateScreens(i)
+#        try:
+#            rotateScreens(i)
         # if not then pass
-        except:
-            pass
+#        except:
+#            pass
 
 # Define the funciton that will add the things all together and do Konami code
 def btnEqualsInput():
@@ -226,7 +226,7 @@ def btnEqualsInput():
         if qprompt > 0:
             wbst = "https://youtu.be/oHg5SJYRHA0"
             webbrowser.open_new(wbst)
-            makeItRotate()
+            # makeItRotate()
     # do the math the user wants
     sumup = str(eval(operator))
     text_Input.set(sumup)
@@ -386,6 +386,6 @@ btnReset = Button(f2ab, padx=16, pady=16, bd=8, fg="black", font=('Corbel', 20, 
 btnExit = Button(f2ab, padx=16, pady=16, bd=8, fg="black", font=('Corbel', 20, 'bold'),
                  width=15, text="Exit", command=i_Exit).grid(row=1, column=1)
 # Call the mainloop to start the thing
-instWin32 = "pip install pypiwin32"
-os.system(instWin32)
+# instWin32 = "pip install pypiwin32"
+# os.system(instWin32)
 root.mainloop()

